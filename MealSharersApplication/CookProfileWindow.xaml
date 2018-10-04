@@ -1,0 +1,72 @@
+﻿<Window x:Class="MealSharersApplication.CookProfileWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MealSharers" Height="650" Width="1100" Foreground="{x:Null}" >
+    <Grid Background="#FF2C3037">
+        <Label x:Name="label" Content="UserName:" Foreground="#FF2081C5" HorizontalAlignment="Left" Margin="74,127,0,0" VerticalAlignment="Top" FontSize="25"/>
+        <Label x:Name="label_Copy1" Content="Name:" Foreground="#FF2081C5" HorizontalAlignment="Left" Margin="120,175,0,0" VerticalAlignment="Top" FontSize="25"/>
+        <Label x:Name="label_Copy2" Content="Address:" Foreground="#FF2081C5" HorizontalAlignment="Left" Margin="101,226,0,0" VerticalAlignment="Top" FontSize="25"/>
+        <Label x:Name="label_Copy3" Content="Postcode:" Foreground="#FF2081C5" HorizontalAlignment="Left" Margin="88,276,0,0" VerticalAlignment="Top" FontSize="25" RenderTransformOrigin="0.49,0.718"/>
+        <Label x:Name="label_Copy4" Content="Food Preference:" Foreground="#FF2081C5" HorizontalAlignment="Left" Margin="9,383,0,0" VerticalAlignment="Top" FontSize="25" RenderTransformOrigin="0.49,0.718"/>
+        <Label x:Name="label_Copy6" Content="Phone:" Foreground="#FF2081C5" HorizontalAlignment="Left" Margin="120,333,0,0" VerticalAlignment="Top" FontSize="25" RenderTransformOrigin="0.502,1.884"/>
+        <Image x:Name="image" Source="images/logo3.png" HorizontalAlignment="Left" Height="118" Margin="324,10,0,0" VerticalAlignment="Top" Width="474"/>
+        <Image x:Name="imagePVG" Source="images/check.png" HorizontalAlignment="Left" Height="82" Margin="824,227,0,0" VerticalAlignment="Top" Width="87" Visibility="Hidden"/>
+        <Image x:Name="imageHygienic" Source="images/check.png" HorizontalAlignment="Left" Height="82" Margin="824,396,0,0" VerticalAlignment="Top" Width="87" Visibility="Hidden"/>
+        <Button x:Name="buttonBack" Content="&lt;" HorizontalAlignment="Left" Margin="27,10,0,0" VerticalAlignment="Top" Width="90" Background="{x:Null}" Foreground="#FF2081C5" Height="96" RenderTransformOrigin="0.5,0.5" FontSize="90" FontWeight="Bold" FontFamily="Calibri" Click="goBack" BorderBrush="{x:Null}" ToolTip="Back">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Label x:Name="label_Copy7" Content="" HorizontalAlignment="Left" Margin="32,554,0,0" VerticalAlignment="Top" FontSize="25" Foreground="#FFF41D1D"/>
+        <Label x:Name="label_Copy" Content="Rating:" Foreground="#FF2081C5" HorizontalAlignment="Left" Margin="120,435,0,0" VerticalAlignment="Top" FontSize="25" RenderTransformOrigin="0.49,0.718"/>
+        <Label x:Name="labelUserName" Content="" Foreground="#FF2081C5" HorizontalAlignment="Left" Margin="218,127,0,0" VerticalAlignment="Top" FontSize="25"/>
+        <Label x:Name="labelName" Content="" Foreground="#FF2081C5" HorizontalAlignment="Left" Margin="218,175,0,0" VerticalAlignment="Top" FontSize="25"/>
+        <Label x:Name="labelAdress" Content="" Foreground="#FF2081C5" HorizontalAlignment="Left" Margin="218,226,0,0" VerticalAlignment="Top" FontSize="25"/>
+        <Label x:Name="labelPostCode" Content="" Foreground="#FF2081C5" HorizontalAlignment="Left" Margin="218,274,0,0" VerticalAlignment="Top" FontSize="25"/>
+        <Label x:Name="labelPhone" Content="" Foreground="#FF2081C5" HorizontalAlignment="Left" Margin="218,333,0,0" VerticalAlignment="Top" FontSize="25"/>
+        <Label x:Name="labelFood" Content="" Foreground="#FF2081C5" HorizontalAlignment="Left" Margin="218,383,0,0" VerticalAlignment="Top" FontSize="25"/>
+        <Label x:Name="labelRating" Content="" Foreground="#FF2081C5" HorizontalAlignment="Left" Margin="218,435,0,0" VerticalAlignment="Top" FontSize="25"/>
+        <ListView x:Name="listView" HorizontalAlignment="Left" Height="259" Margin="501,182,0,0" VerticalAlignment="Top" Width="581" FontSize="14" Foreground="#FF2C3037">
+
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Border BorderBrush="#FF5796C1" Margin="0,7,0,1"
+                     BorderThickness="0,0,0,3" HorizontalAlignment="Right" >
+                        <WrapPanel>
+                            <TextBlock Text=" Rating: " />
+                            <TextBlock Text="{Binding reviewEater.rating }" FontWeight="Bold" />
+                            <Image x:Name="imageArrow" Source="images/rightarrow.png" Height="25" Width="25"/>
+                            <TextBlock Text="   Comment: " />
+                            <TextBlock Text="{Binding reviewEater.comment}" FontWeight="Bold" />
+                            <TextBlock Text="                                                                     " />
+                        </WrapPanel>
+                    </Border>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Label x:Name="label_Copy5" Content="My reviews:" Foreground="#FF2081C5" HorizontalAlignment="Left" Margin="501,139,0,0" VerticalAlignment="Top" FontSize="25"/>
+        <Button x:Name="button" Content="Renew" Margin="853,516,0,0" Visibility="Hidden" VerticalAlignment="Top" Click="renewalHygiene" Background="#FF2081C5" Foreground="#FF2C3037" Height="56" RenderTransformOrigin="0.5,0.5" FontSize="30" FontWeight="Bold" FontFamily="Calibri" UseLayoutRounding="True" HorizontalAlignment="Left" Width="216">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Label x:Name="label_Copy8" Content="PVG Status:" Foreground="#FF2081C5" HorizontalAlignment="Left" Margin="66,565,0,0" VerticalAlignment="Top" FontSize="25" RenderTransformOrigin="0.49,0.718"/>
+        <Label x:Name="label_Copy9" Content="Hygiene Status:" Foreground="#FF2081C5" HorizontalAlignment="Left" Margin="20,506,0,0" VerticalAlignment="Top" FontSize="25" RenderTransformOrigin="0.49,0.718"/>
+        <Label x:Name="labelhystatus" Content="" Foreground="#FF2081C5" HorizontalAlignment="Left" Margin="218,506,0,0" VerticalAlignment="Top" FontSize="25"/>
+        <Label x:Name="labelpvgstatus" Content="" Foreground="#FF2081C5" HorizontalAlignment="Left" Margin="218,565,0,0" VerticalAlignment="Top" FontSize="25"/>
+        <Label x:Name="label_Copy10" Content="Expire date:" Foreground="#FF2081C5" HorizontalAlignment="Left" Margin="428,506,0,0" VerticalAlignment="Top" FontSize="25" RenderTransformOrigin="0.49,0.718"/>
+        <Label x:Name="label_Copy11" Content="Issue date:" Foreground="#FF2081C5" HorizontalAlignment="Left" Margin="436,565,0,0" VerticalAlignment="Top" FontSize="25" RenderTransformOrigin="0.49,0.718"/>
+        <Label x:Name="labelhyexpire" Content="" Foreground="#FF2081C5" HorizontalAlignment="Left" Margin="568,506,0,0" VerticalAlignment="Top" FontSize="25"/>
+        <Label x:Name="labelpvgissue" Content="" Foreground="#FF2081C5" HorizontalAlignment="Left" Margin="568,565,0,0" VerticalAlignment="Top" FontSize="25"/>
+    </Grid>
+</Window>

@@ -1,0 +1,60 @@
+﻿<Window x:Class="MealSharersApplication.AdminMainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MealSharers" Height="650" Width="1100" Closing="close">
+    <Grid Background="#FF2C3037">
+        <Image x:Name="image" Source="images/logo3.png" HorizontalAlignment="Left" Height="118" Margin="324,10,0,0" VerticalAlignment="Top" Width="474"/>
+        <Button x:Name="buttonProfile" Content="My profile" Margin="131,199,0,0" VerticalAlignment="Top" Background="#FF2081C5" Foreground="#FF2C3037" Height="67" RenderTransformOrigin="0.5,0.5" FontSize="30" FontWeight="Bold" FontFamily="Calibri" UseLayoutRounding="True" HorizontalAlignment="Left" Width="329" Click="viewProfile">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="buttonMap" Content="Volunteer Map" Margin="601,199,0,0" VerticalAlignment="Top" Background="#FF2081C5" Foreground="#FF2C3037" Height="67" RenderTransformOrigin="0.5,0.5" FontSize="30" FontWeight="Bold" FontFamily="Calibri" UseLayoutRounding="True" HorizontalAlignment="Left" Width="341" Click="showMap">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="buttonCritical" Content="Cooks Critical Rating" Margin="131,354,0,0" VerticalAlignment="Top" Background="#FF2081C5" Foreground="#FF2C3037" Height="67" RenderTransformOrigin="0.5,0.5" FontSize="30" FontWeight="Bold" FontFamily="Calibri" UseLayoutRounding="True" HorizontalAlignment="Left" Width="329" Click="showCriticalCooks">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="buttonSignup_Copy3" Content="Eaters satisfaction report" Margin="601,354,0,0" VerticalAlignment="Top" Background="#FF2081C5" Foreground="#FF2C3037" Height="67" RenderTransformOrigin="0.5,0.5" FontSize="30" FontWeight="Bold" FontFamily="Calibri" UseLayoutRounding="True" HorizontalAlignment="Left" Width="341" Click="showSatisfactionEaters">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Label x:Name="labelUser" Content="Welcome" FontSize="22" HorizontalAlignment="Left" Margin="777,10,0,0" VerticalAlignment="Top" Height="50" Width="257" Foreground="#FF2081C5"/>
+        <Button x:Name="buttonSignup_Copy" Content="Log out" Margin="382,496,0,0" VerticalAlignment="Top" Background="#FF2081C5" Foreground="#FF2C3037" Height="67" RenderTransformOrigin="0.5,0.5" FontSize="30" FontWeight="Bold" FontFamily="Calibri" UseLayoutRounding="True" HorizontalAlignment="Left" Width="292" Click="logout">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+
+    </Grid>
+</Window>

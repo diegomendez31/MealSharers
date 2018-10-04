@@ -1,0 +1,46 @@
+﻿<Window x:Class="MealSharersApplication.signupEaterWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MealSharers" Height="650" Width="1100" Foreground="{x:Null}" Closing="Window_Closing">
+    <Grid Background="#FF2C3037">
+        <TextBox x:Name="textBoxUsername" FontSize="21" HorizontalAlignment="Left" Height="31" Margin="422,133,0,0" TextWrapping="Wrap" VerticalAlignment="Top"   Width="326" Foreground="#FF2C3037"/>
+        <PasswordBox x:Name="textBoxPassword" FontSize="21" HorizontalAlignment="Left" Height="31" Margin="422,186,0,0"  VerticalAlignment="Top" Width="326" Foreground="#FF2C3037"/>
+        <TextBox x:Name="textBoxName" FontSize="20" HorizontalAlignment="Left" Height="31" Margin="422,239,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="326" Foreground="#FF2C3037" RenderTransformOrigin="0.483,2.122"/>
+        <TextBox x:Name="textBoxAddress" FontSize="20" HorizontalAlignment="Left" Height="31" Margin="422,294,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="326" Foreground="#FF2C3037" RenderTransformOrigin="0.483,2.122"/>
+        <TextBox x:Name="textBoxPostcode" FontSize="20" HorizontalAlignment="Left" Height="31" Margin="422,346,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="326" Foreground="#FF2C3037" RenderTransformOrigin="0.483,2.122"/>
+        <ComboBox x:Name="comboBoxFood" FontSize="20" HorizontalAlignment="Left" Margin="422,445,0,0" VerticalAlignment="Top" Width="326" Height="34"/>
+        <Button x:Name="buttonSignup" Content="Sign up" Margin="754,554,0,0" VerticalAlignment="Top" Background="#FF2081C5" Foreground="#FF2C3037" Height="42" RenderTransformOrigin="0.5,0.5" FontSize="30" FontWeight="Bold" FontFamily="Calibri" UseLayoutRounding="True" HorizontalAlignment="Left" Width="244" Click="signupEater">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Label x:Name="label" Content="UserName:" Foreground="#FF2081C5" HorizontalAlignment="Left" Margin="264,121,0,0" VerticalAlignment="Top" FontSize="25"/>
+        <Label x:Name="label_Copy" Content="Password:" Foreground="#FF2081C5" HorizontalAlignment="Left" Margin="276,174,0,0" VerticalAlignment="Top" FontSize="25"/>
+        <Label x:Name="label_Copy1" Content="Name:" Foreground="#FF2081C5" HorizontalAlignment="Left" Margin="314,227,0,0" VerticalAlignment="Top" FontSize="25"/>
+        <Label x:Name="label_Copy2" Content="Address:" Foreground="#FF2081C5" HorizontalAlignment="Left" Margin="291,282,0,0" VerticalAlignment="Top" FontSize="25"/>
+        <Label x:Name="label_Copy3" Content="Postcode:" Foreground="#FF2081C5" HorizontalAlignment="Left" Margin="278,334,0,0" VerticalAlignment="Top" FontSize="25" RenderTransformOrigin="0.49,0.718"/>
+        <Label x:Name="label_Copy4" Content="Food Preference:" Foreground="#FF2081C5" HorizontalAlignment="Left" Margin="199,436,0,0" VerticalAlignment="Top" FontSize="25" RenderTransformOrigin="0.49,0.718"/>
+        <TextBox x:Name="textBoxPhone" FontSize="21" HorizontalAlignment="Left" Height="31" Margin="422,396,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="326" Foreground="#FF2C3037" RenderTransformOrigin="0.483,2.122"/>
+        <Label x:Name="label_Copy6" Content="Phone:" Foreground="#FF2081C5" HorizontalAlignment="Left" Margin="310,384,0,0" VerticalAlignment="Top" FontSize="25" RenderTransformOrigin="0.502,1.884"/>
+        <Image x:Name="image" Source="images/logo3.png" HorizontalAlignment="Left" Height="118" Margin="324,10,0,0" VerticalAlignment="Top" Width="474"/>
+        <Image x:Name="imagePVG" Source="images/check.png" HorizontalAlignment="Left" Height="82" Margin="824,227,0,0" VerticalAlignment="Top" Width="87" Visibility="Hidden"/>
+        <Image x:Name="imageHygienic" Source="images/check.png" HorizontalAlignment="Left" Height="82" Margin="824,396,0,0" VerticalAlignment="Top" Width="87" Visibility="Hidden"/>
+        <Button x:Name="buttonBack" Content="&lt;" HorizontalAlignment="Left" Margin="27,10,0,0" VerticalAlignment="Top" Width="90" Background="{x:Null}" Foreground="#FF2081C5" Height="96" RenderTransformOrigin="0.5,0.5" FontSize="90" FontWeight="Bold" FontFamily="Calibri" Click="goBack" BorderBrush="{x:Null}" ToolTip="Back">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Label x:Name="label_Copy7" Content="" HorizontalAlignment="Left" Margin="32,554,0,0" VerticalAlignment="Top" FontSize="25" Foreground="#FFF41D1D"/>
+
+    </Grid>
+</Window>

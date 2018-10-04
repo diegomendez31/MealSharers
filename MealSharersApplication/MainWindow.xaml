@@ -1,0 +1,45 @@
+﻿<Window x:Class="MealSharersApplication.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MealSharersApplication"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="650" Foreground="{x:Null}" Width="1160" MinWidth="1160" MinHeight="650" MaxWidth="1160" MaxHeight="650" ResizeMode="NoResize">
+    <Window.Background>
+        <ImageBrush ImageSource="images/logo2.png"/>
+    </Window.Background>
+    <Grid HorizontalAlignment="Left" Width="1090">
+
+        <Button x:Name="button" Content="Log in" Margin="132,467,0,0" VerticalAlignment="Top" Click="openLogIn" Background="#FF2081C5" Foreground="#FF2C3037" Height="56" RenderTransformOrigin="0.5,0.5" FontSize="30" FontWeight="Bold" FontFamily="Calibri" UseLayoutRounding="True" HorizontalAlignment="Left" Width="197">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="button_Copy1" Content="Sign up Eater" Margin="462,467,0,0" Click="openSignupEater" Background="#FF2081C5" Foreground="#FF2C3037" Height="56" RenderTransformOrigin="0.5,0.5" FontSize="30" FontWeight="Bold" FontFamily="Calibri" Width="197" UseLayoutRounding="True" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="button_Copy2" Content="Sign up Cook" Margin="772,467,-454,0" VerticalAlignment="Top" Click="openSignupCook" Background="#FF2081C5" Foreground="#FF2C3037" Height="56" RenderTransformOrigin="0.5,0.5" FontSize="30" FontWeight="Bold" FontFamily="Calibri" HorizontalAlignment="Left" Width="197">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+    </Grid>
+</Window>

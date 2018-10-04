@@ -1,0 +1,79 @@
+﻿<Window x:Class="MealSharersApplication.QuarterlyWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+         Title="MealSharers" Height="650" Width="1100" Foreground="{x:Null}" >
+    <Grid Background="#FF2C3037">
+        <Label x:Name="label" Content="Cooks status:" Foreground="#FF2081C5" HorizontalAlignment="Left" Margin="68,139,0,0" VerticalAlignment="Top" FontSize="25"/>
+        <Label x:Name="label_Copy6" Content="Eaters status:" Foreground="#FF2081C5" HorizontalAlignment="Left" Margin="66,356,0,0" VerticalAlignment="Top" FontSize="25" RenderTransformOrigin="0.502,1.884"/>
+        <Image x:Name="image" Source="images/logo3.png" HorizontalAlignment="Left" Height="118" Margin="324,10,0,0" VerticalAlignment="Top" Width="474"/>
+        <ListView x:Name="listView" HorizontalAlignment="Left" Height="179" Margin="66,177,0,0" VerticalAlignment="Top" Width="965" FontSize="12" Foreground="#FF2C3037" >
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Border BorderBrush="#FF5796C1" Margin="0,7,0,1"
+                     BorderThickness="0,0,0,3" HorizontalAlignment="Right" >
+                        <WrapPanel>
+                            <Image x:Name="imageUser" Source="images/user.png" Height="35" Width="35"/>
+                            <TextBlock Text="   Name: " />
+                            <TextBlock Text="{Binding name}" FontWeight="Bold" />
+                            <TextBlock Text=", " />
+                            <TextBlock Text="   Rating: " />
+                            <TextBlock Text="{Binding rating}" FontWeight="Bold" />
+                            <TextBlock Text=", " />
+                            <TextBlock Text="   PVG status: " />
+                            <TextBlock Text="{Binding PVGstatus}" FontWeight="Bold" />
+                            <TextBlock Text=", " />
+                            <TextBlock Text="   PVG Issue Date: " />
+                            <TextBlock Text="{Binding PVGIssueDate}" FontWeight="Bold" />
+                            <TextBlock Text=", " />
+                            <TextBlock Text="   Hygiene status: " />
+                            <TextBlock Text="{Binding hygieneStatus}" FontWeight="Bold" />
+                            <TextBlock Text=", " />
+                            <TextBlock Text="   Hygiene Expiry Date: " />
+                            <TextBlock Text="{Binding hygieneExpiryDate}" FontWeight="Bold" />
+                            <TextBlock Text="   " />
+                            <Button x:Name="buttonMessage" Tag="{Binding}" Content="Send Message"  Background="#FF2081C5" Foreground="#FF2C3037" Height="40"  FontSize="15" FontWeight="Bold" FontFamily="Calibri" UseLayoutRounding="True" HorizontalAlignment="Left" Width="150" Click="reviewMeal">
+
+                            </Button>
+                            <TextBlock Text="                                " />
+                        </WrapPanel>
+                    </Border>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <ListView x:Name="listView2" HorizontalAlignment="Left" Height="188" Margin="66,404,0,0" VerticalAlignment="Top" Width="965" FontSize="15" Foreground="#FF2C3037" >
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Border BorderBrush="#FF5796C1" Margin="0,7,0,1"
+                     BorderThickness="0,0,0,3" HorizontalAlignment="Right" >
+                        <WrapPanel>
+                            <Image x:Name="imageUser" Source="images/user.png" Height="35" Width="35"/>
+                            <TextBlock Text="   Name: " />
+                            <TextBlock Text="{Binding name}" FontWeight="Bold" />
+                            <TextBlock Text=", " />
+                            <TextBlock Text="   Rating: " />
+                            <TextBlock Text="{Binding rating}" FontWeight="Bold" />
+                            <TextBlock Text=", " />
+                            <TextBlock Text="   Number of meals: " />
+                            <TextBlock Text="{Binding numberMeals}" FontWeight="Bold" />
+                            <TextBlock Text="   " />
+                            <Button x:Name="buttonMessage" Tag="{Binding}" Content="Send Message"  Background="#FF2081C5" Foreground="#FF2C3037" Height="40"  FontSize="15" FontWeight="Bold" FontFamily="Calibri" UseLayoutRounding="True" HorizontalAlignment="Left" Width="150" Click="reviewMeal">
+
+                            </Button>
+                            <TextBlock Text="                                                                                                                                                                                                                                                        " />
+                        </WrapPanel>
+                    </Border>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Button x:Name="buttonBack" Content="&lt;" HorizontalAlignment="Left" Margin="27,10,0,0" VerticalAlignment="Top" Width="90" Background="{x:Null}" Foreground="#FF2081C5" Height="96" RenderTransformOrigin="0.5,0.5" FontSize="90" FontWeight="Bold" FontFamily="Calibri" Click="goBack" BorderBrush="{x:Null}" ToolTip="Back">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+    </Grid>
+</Window>

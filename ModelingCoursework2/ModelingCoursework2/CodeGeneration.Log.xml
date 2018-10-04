@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 14.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/CodeGenLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Code Generation/Text Transformation Log">
+  <MessageClass Name="Message" Label="Message" Option="Show informational messages" />
+  <MessageClass Name="Warning" Label="Warning" Option="Show warnings" />
+  <MessageClass Name="Error" Label="Error" Option="Show errors" />
+  <MessageClass Name="Property" Label="Property" Option="Show metadata" />
+  <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
+  <Message Timestamp="2017-11-07T15:15:52" Importance="High" Text="Code generation or text transformation started." />
+  <Message Timestamp="2017-11-07T15:15:52" Importance="Diagnostic" Text="Name = ClassTemplate" />
+  <Message Timestamp="2017-11-07T15:15:52" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2017-11-07T15:15:52" Importance="Diagnostic" Text="ProjectPath = ..\ModelingCoursework2Lib\ModelingCoursework2Lib.csproj" />
+  <Message Timestamp="2017-11-07T15:15:52" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2017-11-07T15:15:52" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2017-11-07T15:15:52" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2017-11-07T15:15:52" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2017-11-07T15:15:52" Importance="Medium" Text="ModelingCoursework2's Text Template Binding: 'ClassTemplate' will apply ClassTemplate.t4 to: 'ModelingCoursework2::MealSharers' -  (Class), 'ModelingCoursework2::Meal' -  (Class), 'ModelingCoursework2::Cook' -  (Class), 'ModelingCoursework2::Eater' -  (Class), 'ModelingCoursework2::User' -  (Class), 'ModelingCoursework2::Review' -  (Class), 'ModelingCoursework2::Administrator' -  (Class), 'ModelingCoursework2::PVGrecord' -  (Class), 'ModelingCoursework2::HygieneCertification' -  (Class), 'ModelingCoursework2::Photo' -  (Class), 'ModelingCoursework2::Manager' -  (Class), 'ModelingCoursework2::Notification' -  (Class) " />
+  <Message Timestamp="2017-11-07T15:16:19" Importance="Medium" Text="Project Added: F:\Coursework2\ModelingCoursework2\ModelingCoursework2Lib\ModelingCoursework2Lib.csproj" />
+  <Message Timestamp="2017-11-07T15:16:19" Importance="Medium" Text="'ModelingCoursework2::MealSharers' -  (Class) : success (file created) - F:\Coursework2\ModelingCoursework2\ModelingCoursework2Lib\GeneratedCode\MealSharers.cs" />
+  <Message Timestamp="2017-11-07T15:16:21" Importance="Medium" Text="'ModelingCoursework2::Meal' -  (Class) : success (file created) - F:\Coursework2\ModelingCoursework2\ModelingCoursework2Lib\GeneratedCode\Meal.cs" />
+  <Message Timestamp="2017-11-07T15:16:21" Importance="Medium" Text="'ModelingCoursework2::Cook' -  (Class) : success (file created) - F:\Coursework2\ModelingCoursework2\ModelingCoursework2Lib\GeneratedCode\Cook.cs" />
+  <Message Timestamp="2017-11-07T15:16:22" Importance="Medium" Text="'ModelingCoursework2::Eater' -  (Class) : success (file created) - F:\Coursework2\ModelingCoursework2\ModelingCoursework2Lib\GeneratedCode\Eater.cs" />
+  <Message Timestamp="2017-11-07T15:16:22" Importance="Medium" Text="'ModelingCoursework2::User' -  (Class) : success (file created) - F:\Coursework2\ModelingCoursework2\ModelingCoursework2Lib\GeneratedCode\User.cs" />
+  <Message Timestamp="2017-11-07T15:16:23" Importance="Medium" Text="'ModelingCoursework2::Review' -  (Class) : success (file created) - F:\Coursework2\ModelingCoursework2\ModelingCoursework2Lib\GeneratedCode\Review.cs" />
+  <Message Timestamp="2017-11-07T15:16:23" Importance="Medium" Text="'ModelingCoursework2::Administrator' -  (Class) : success (file created) - F:\Coursework2\ModelingCoursework2\ModelingCoursework2Lib\GeneratedCode\Administrator.cs" />
+  <Message Timestamp="2017-11-07T15:16:24" Importance="Medium" Text="'ModelingCoursework2::PVGrecord' -  (Class) : success (file created) - F:\Coursework2\ModelingCoursework2\ModelingCoursework2Lib\GeneratedCode\PVGrecord.cs" />
+  <Message Timestamp="2017-11-07T15:16:24" Importance="Medium" Text="'ModelingCoursework2::HygieneCertification' -  (Class) : success (file created) - F:\Coursework2\ModelingCoursework2\ModelingCoursework2Lib\GeneratedCode\HygieneCertification.cs" />
+  <Message Timestamp="2017-11-07T15:16:25" Importance="Medium" Text="'ModelingCoursework2::Photo' -  (Class) : success (file created) - F:\Coursework2\ModelingCoursework2\ModelingCoursework2Lib\GeneratedCode\Photo.cs" />
+  <Message Timestamp="2017-11-07T15:16:25" Importance="Medium" Text="'ModelingCoursework2::Manager' -  (Class) : success (file created) - F:\Coursework2\ModelingCoursework2\ModelingCoursework2Lib\GeneratedCode\Manager.cs" />
+  <Message Timestamp="2017-11-07T15:16:26" Importance="Medium" Text="'ModelingCoursework2::Notification' -  (Class) : success (file created) - F:\Coursework2\ModelingCoursework2\ModelingCoursework2Lib\GeneratedCode\Notification.cs" />
+  <Message Timestamp="2017-11-07T15:16:26" Importance="Diagnostic" Text="Name = StructTemplate" />
+  <Message Timestamp="2017-11-07T15:16:26" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2017-11-07T15:16:26" Importance="Diagnostic" Text="ProjectPath = ..\ModelingCoursework2Lib\ModelingCoursework2Lib.csproj" />
+  <Message Timestamp="2017-11-07T15:16:26" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2017-11-07T15:16:26" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2017-11-07T15:16:26" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2017-11-07T15:16:26" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2017-11-07T15:16:26" Importance="Medium" Text="ModelingCoursework2's Text Template Binding: 'StructTemplate' will apply StructTemplate.t4 to: 'ModelingCoursework2::MealSharers' -  (Class), 'ModelingCoursework2::Meal' -  (Class), 'ModelingCoursework2::Cook' -  (Class), 'ModelingCoursework2::Eater' -  (Class), 'ModelingCoursework2::User' -  (Class), 'ModelingCoursework2::Review' -  (Class), 'ModelingCoursework2::Administrator' -  (Class), 'ModelingCoursework2::PVGrecord' -  (Class), 'ModelingCoursework2::HygieneCertification' -  (Class), 'ModelingCoursework2::Photo' -  (Class), 'ModelingCoursework2::Manager' -  (Class), 'ModelingCoursework2::Notification' -  (Class) " />
+  <Message Timestamp="2017-11-07T15:16:26" Importance="Diagnostic" Text="'ModelingCoursework2::MealSharers' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2017-11-07T15:16:26" Importance="Diagnostic" Text="'ModelingCoursework2::Meal' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2017-11-07T15:16:26" Importance="Diagnostic" Text="'ModelingCoursework2::Cook' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2017-11-07T15:16:26" Importance="Diagnostic" Text="'ModelingCoursework2::Eater' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2017-11-07T15:16:26" Importance="Diagnostic" Text="'ModelingCoursework2::User' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2017-11-07T15:16:26" Importance="Diagnostic" Text="'ModelingCoursework2::Review' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2017-11-07T15:16:27" Importance="Diagnostic" Text="'ModelingCoursework2::Administrator' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2017-11-07T15:16:27" Importance="Diagnostic" Text="'ModelingCoursework2::PVGrecord' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2017-11-07T15:16:27" Importance="Diagnostic" Text="'ModelingCoursework2::HygieneCertification' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2017-11-07T15:16:27" Importance="Diagnostic" Text="'ModelingCoursework2::Photo' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2017-11-07T15:16:27" Importance="Diagnostic" Text="'ModelingCoursework2::Manager' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2017-11-07T15:16:27" Importance="Diagnostic" Text="'ModelingCoursework2::Notification' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2017-11-07T15:16:27" Importance="Diagnostic" Text="The selection included 10 elements which were not bound to a template." />
+  <Message Timestamp="2017-11-07T15:16:27" Importance="Diagnostic" Text="'ModelingCoursework2' -  (ModelStoreModel): no bound template." />
+  <Message Timestamp="2017-11-07T15:16:27" Importance="Diagnostic" Text="'C' -  (UndefinedType): no bound template." />
+  <Message Timestamp="2017-11-07T15:16:27" Importance="Diagnostic" Text="'ModelingCoursework2::' -  (Association): no bound template." />
+  <Message Timestamp="2017-11-07T15:16:27" Importance="Diagnostic" Text="'ModelingCoursework2::' -  (Association): no bound template." />
+  <Message Timestamp="2017-11-07T15:16:27" Importance="Diagnostic" Text="'ModelingCoursework2::' -  (Association): no bound template." />
+  <Message Timestamp="2017-11-07T15:16:27" Importance="Diagnostic" Text="'ModelingCoursework2::' -  (Association): no bound template." />
+  <Message Timestamp="2017-11-07T15:16:27" Importance="Diagnostic" Text="'ModelingCoursework2::' -  (Association): no bound template." />
+  <Message Timestamp="2017-11-07T15:16:27" Importance="Diagnostic" Text="'ModelingCoursework2::' -  (Association): no bound template." />
+  <Message Timestamp="2017-11-07T15:16:27" Importance="Diagnostic" Text="'ModelingCoursework2::' -  (Association): no bound template." />
+  <Message Timestamp="2017-11-07T15:16:27" Importance="Diagnostic" Text="'ModelingCoursework2::' -  (Association): no bound template." />
+  <Message Timestamp="2017-11-07T15:16:27" Importance="High" Text="Code generation complete. Errors: 0. Warnings: 0." />
+</Log>

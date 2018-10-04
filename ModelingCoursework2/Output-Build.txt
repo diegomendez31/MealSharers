@@ -1,0 +1,2 @@
+﻿------ Clean started: Project: ModelingCoursework2, Configuration: Debug Any CPU ------
+========== Clean: 1 succeeded, 0 failed, 0 skipped ==========

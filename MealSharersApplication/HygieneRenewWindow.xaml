@@ -1,0 +1,36 @@
+﻿<Window x:Class="MealSharersApplication.HygieneRenewWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MealSharersApplication"
+        mc:Ignorable="d"
+        Title="HygieneWindow" Height="300" Width="300">
+    <Grid Background="#FF2C3037">
+        <Label x:Name="label" Content="Hygiene Certification" Foreground="#FF2081C5" FontSize="25" HorizontalAlignment="Left" Margin="31,10,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1" Content="Have you been hygienic?" FontSize="18"  Foreground="#FF2081C5"  HorizontalAlignment="Left" Margin="42,72,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="radioButton" Foreground="#FF2081C5" FontSize="18" Content="Yes" HorizontalAlignment="Left" Margin="59,126,0,0" VerticalAlignment="Top" Checked="yesChecked"/>
+        <RadioButton x:Name="radioButton1"  Foreground="#FF2081C5" FontSize="18" Content="No" HorizontalAlignment="Left" Margin="171,126,0,0" VerticalAlignment="Top" Checked="noChecked"/>
+        <Button x:Name="buttonHygieneRequest"  Content="Obtain"  VerticalAlignment="Top" Background="#FF2081C5" Foreground="#FF2C3037" Height="36" RenderTransformOrigin="0.5,0.5" FontSize="20" FontWeight="Bold" FontFamily="Calibri" UseLayoutRounding="True" HorizontalAlignment="Left" Width="116" Margin="18,190,0,0" Click="obtainHygieneCer">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="buttonPVG_Cancel"  Content="Cancel"  VerticalAlignment="Top" Background="#FF2081C5" Foreground="#FF2C3037" Height="36" RenderTransformOrigin="0.5,0.5" FontSize="20" FontWeight="Bold" FontFamily="Calibri" UseLayoutRounding="True" HorizontalAlignment="Left" Width="116" Margin="160,190,0,0" Click="cancelButton">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+
+    </Grid>
+</Window>
